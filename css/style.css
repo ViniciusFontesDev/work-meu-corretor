@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/*Página de Links*/
+@import url(links/links.css);
+
+/*global*/
+@import url(global/global.css);
+@import url(global/cores.css);
+@import url(global/tipografia.css);
+
+/*utilidades*/
+@import url(utilidades/botoes.css);
+@import url(utilidades/enfeites.css);

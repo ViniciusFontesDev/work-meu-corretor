@@ -1,0 +1,5 @@
+.linha-branca{
+    width: 38px;
+    height: 1px;
+    background-color: var(--cor-w);
+}

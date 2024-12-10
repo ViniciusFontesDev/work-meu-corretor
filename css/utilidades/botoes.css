@@ -1,0 +1,18 @@
+.botao-vazado-branco{
+    border: 1px solid var(--cor-w);
+    display: block;
+    box-sizing: border-box;
+    width: 300px;
+    padding: 12px;
+    border-radius: 50px;
+}
+
+.botao-vazado-branco:hover{
+    background-color: var(--cor-12);
+}
+
+.fundo-cinza-links{
+    background-color: var(--cor-12);
+    padding: 10px 30px;
+    border-radius: 50px;
+}
