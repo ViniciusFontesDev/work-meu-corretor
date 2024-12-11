@@ -22,6 +22,7 @@
 
 .intro-links{
     margin-top: 30px;
+    box-sizing: border-box;
 }
 .intro-links a{
     text-decoration: none;
@@ -32,12 +33,20 @@
     color: var(--cor-p);
     padding: 10px 15px;
     border-radius: 4px;
+    transition: background-color .5s;
+}
+.intro-links a:nth-child(1):hover{
+    background-color: var(--cor-02);
 }
 .intro-links a:nth-child(2){
     border: 1px solid var(--cor-w);
     color: var(--cor-w);
     padding: 10px 15px;
     border-radius: 4px;
+    transition: background-color .5s;
+}
+.intro-links a:nth-child(2):hover{
+    background-color: rgba(0, 0, 0, 0.25);
 }
 
 
