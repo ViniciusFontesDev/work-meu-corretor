@@ -1,0 +1,49 @@
+.imoveis-destaque{
+    margin-top: 40px;
+}
+
+.imoveis-destaque>ul>li{
+    max-width: 190px;
+}
+
+.imoveis-destaque h2{
+    font: 400 24px "Roboto", serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.foto-destaque{
+    max-width: 190px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.imoveis-destaque ul{
+    list-style: none;
+}
+
+.imoveis-destaque ul li a{
+    text-decoration: none;
+}
+
+.imoveis-destaque h3{
+    margin-bottom: 6px;
+}
+
+.imoveis-destaque ul p{
+    margin-bottom: 6px;
+}
+
+.imoveis-destaque div.info-resumo-imoveis.destaque{
+    margin-bottom: 20px;
+}
+
+
+.imoveis-destaque ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    overflow-x: scroll;
+}
+
