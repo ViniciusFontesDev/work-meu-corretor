@@ -1,4 +1,4 @@
-body{
+body#links{
     background: var(--cor-13);
     max-width: 390px;
     margin: 0px auto;
@@ -17,13 +17,9 @@ body{
     margin-top: -30px;
 }
 
-#links .subtitulo-meuslinks{
-    margin-top: -25px;
-}
-
 div.det-linha-branca{
     margin-top: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #links .lista-meuslinks{
@@ -31,7 +27,7 @@ div.det-linha-branca{
     list-style: none;
     padding: 0px;
 
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 #links .lista-meuslinks li a{

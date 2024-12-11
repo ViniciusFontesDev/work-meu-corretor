@@ -11,3 +11,7 @@
 /*utilidades*/
 @import url(utilidades/botoes.css);
 @import url(utilidades/enfeites.css);
+
+/*home*/
+@import url(home/menu.css);
+@import url(home/introducao.css);

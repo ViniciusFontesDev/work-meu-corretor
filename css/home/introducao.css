@@ -1,0 +1,43 @@
+.introducao{
+    background: var(--cor-12) url(../../img/home-img/img-introducao.jpg) no-repeat center center;
+    background-size: cover;
+    max-width: 390px;
+    height: 300px;
+
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.intro-centro{
+    text-align: center;
+}
+.intro-centro h3{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 1px;
+}
+.intro-centro h1{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.intro-links{
+    margin-top: 30px;
+}
+.intro-links a{
+    text-decoration: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.intro-links a:nth-child(1){
+    background-color: var(--cor-w);
+    color: var(--cor-p);
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+.intro-links a:nth-child(2){
+    border: 1px solid var(--cor-w);
+    color: var(--cor-w);
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+
