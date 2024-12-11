@@ -5,6 +5,7 @@
     width: 300px;
     padding: 12px;
     border-radius: 50px;
+    transition: background-color .5s;
 }
 
 .botao-vazado-branco:hover{

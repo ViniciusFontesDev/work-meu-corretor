@@ -22,8 +22,8 @@ body{
 }
 
 div.det-linha-branca{
-    margin-top: 60px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 #links .lista-meuslinks{
@@ -49,6 +49,14 @@ div.det-linha-branca{
 
 #links .icones-meuslinks a:nth-child(2){
     margin: 0px 25px;
+}
+
+#links .icones-meuslinks a img{
+transition: transform .5s;
+}
+
+#links .icones-meuslinks a img:hover{
+    transform: scale(1.1);
 }
 
 #links .copy-meuslinks{
