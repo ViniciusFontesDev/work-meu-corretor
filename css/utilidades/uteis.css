@@ -11,3 +11,9 @@
     align-items: center;
     gap: 5px;
 }
+
+.centralizar-texto{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}

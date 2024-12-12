@@ -3,3 +3,8 @@
     height: 1px;
     background-color: var(--cor-w);
 }
+.linha-preta{
+    width: 38px;
+    height: 4px;
+    background-color: var(--cor-p);
+}

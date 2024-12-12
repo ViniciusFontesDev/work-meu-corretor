@@ -1,0 +1,55 @@
+.siganos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--cor-12);
+
+    gap: 20px;
+}
+.siganos-img{
+    margin-bottom: -20px;
+    margin-top: -20px;
+    padding-right: 20px;
+}
+.siganos-img img{
+    height: 310px;
+    object-fit: cover;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.siganos-conteudo{
+    padding: 20px 0px 20px 25px;
+}
+
+
+.siganos h2{
+    margin-bottom: 20px;
+}
+
+.siganos-conteudo ul{
+    list-style: none;
+}
+
+.siganos-conteudo ul li{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-flow: nowrap;
+}
+
+.siganos-conteudo ul li a{
+    text-decoration: none;
+    color: var(--cor-02);
+    margin: 15px 10px;
+}
+
+.siganos-conteudo ul li a::after{
+    content: "";
+    display: block;
+    background-color: var(--cor-02);
+    width: 0%;
+    height: 1px;
+    transition: width .5s;
+}
+
+.siganos-conteudo ul li a:hover::after{
+    width: 100%;
+}

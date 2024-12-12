@@ -17,3 +17,9 @@
     padding: 10px 30px;
     border-radius: 50px;
 }
+
+.botao-contato-footer{
+    background-color: var(--cor-p);
+    padding: 20px 80px;
+    border-radius: 4px;
+}

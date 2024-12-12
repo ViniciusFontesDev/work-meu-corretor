@@ -39,11 +39,15 @@
     margin-bottom: 20px;
 }
 
-
 .imoveis-destaque ul{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 25px;
     overflow-x: scroll;
+    padding: 0px 10px 10px 15px;
+}
+
+.imoveis-destaque ul li:nth-child(:first-child){
+    padding-left: 50px;
 }
 
