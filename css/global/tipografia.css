@@ -33,6 +33,12 @@
 .font-01-regular{
     font: 400 16px "Roboto", serif;
 }
+.font-01-g{
+    font: 400 18px "Roboto", serif;
+}
+.font-01-preco{
+    font: 400 20px "Roboto", serif;
+}
 .font-01-rg{
     font: 400 24px "Roboto", serif;
 }

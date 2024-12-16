@@ -1,0 +1,26 @@
+.agilize{
+    background-color: var(--cor-12);
+    width: 100%;
+    padding: 30px 0px 40px 0px;
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.agilize a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid var(--cor-w);
+    padding: 12px 40px;
+    border-radius: 4px;
+    transition: background-color .5s;
+}
+
+.agilize a:hover{
+    background-color: var(--cor-09);
+}

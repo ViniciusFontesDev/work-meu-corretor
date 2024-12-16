@@ -9,6 +9,7 @@
 @import url(global/footer.css);
 @import url(global/cores.css);
 @import url(global/tipografia.css);
+@import url(global/submenu.css);
 
 /*utilidades*/
 @import url(utilidades/botoes.css);
@@ -22,3 +23,10 @@
 @import url(home/contatinhos.css);
 @import url(home/sobrenos.css);
 @import url(home/siganos.css);
+
+/*todos*/
+@import url(todos/todos-imoveis.css);
+@import url(todos/agilize.css);
+
+/*imovel*/
+@import url(imovel/fotos-imovel.css);
