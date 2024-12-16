@@ -27,8 +27,14 @@
 .font-01-p{
     font: 400 12px "Roboto", serif;
 }
+.font-01-m-light{
+    font: 300 14px "Roboto", serif;
+}
 .font-01-m{
     font: 400 14px "Roboto", serif;
+}
+.font-01-regular-light{
+    font: 300 16px "Roboto", serif;
 }
 .font-01-regular{
     font: 400 16px "Roboto", serif;

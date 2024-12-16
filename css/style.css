@@ -29,4 +29,6 @@
 @import url(todos/agilize.css);
 
 /*imovel*/
-@import url(imovel/fotos-imovel.css);
+@import url(imovel/galeria.css);
+@import url(imovel/titulo-imovel.css);
+@import url(imovel/descricao-imovel.css);

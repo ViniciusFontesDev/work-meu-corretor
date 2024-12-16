@@ -1,0 +1,22 @@
+.padrao-descricao-geral{
+    margin-left: 45px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.descricao-imovel ul{
+    padding-left: 20px;
+}
+
+.detalhes-imovel ul{
+    list-style: none;
+}
+
+.detalhes-imovel{
+    margin-bottom: 60px;
+}
+
+#imovel h2{
+    margin: 40px 0px 30px 25px;
+}

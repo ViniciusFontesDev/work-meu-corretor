@@ -1,0 +1,26 @@
+#galeria img{
+    max-width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+#galeria{
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#galeria ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.preco-venda{
+    text-align: center;
+    margin-top: 20px;
+}
